@@ -69,6 +69,23 @@ aboutLink.addEventListener("click", function(event) {
 
     <h3>Why These Careers Matter</h3>
     <p>Sonographers play an important role in healthcare by providing safe, real-time images that help doctors diagnose and monitor medical conditions. Ultrasound uses sound waves and does not expose patients to radiation.</p>
+<hr>
+
+<h3>Sources</h3>
+
+<ul>
+<li>American Institute of Ultrasound in Medicine (AIUM) – Educational resources on diagnostic medical ultrasound.</li>
+
+<li>Society of Diagnostic Medical Sonography (SDMS) – Information on sonography careers and specialties.</li>
+
+<li>RadiologyInfo.org – Patient education on ultrasound examinations and medical imaging.</li>
+
+<li>Mayo Clinic – General medical information about organs and diseases.</li>
+
+<li>Cleveland Clinic – Anatomy and health information for body organs.</li>
+</ul>
+
+<p><strong>Disclaimer:</strong> This website was created for educational purposes only and is not intended to provide medical advice or replace professional healthcare guidance.</p>
 `;
 
     ultrasoundScreen.innerHTML = `
