@@ -16,20 +16,20 @@ const homeLink = document.getElementById("home-link");
 homeLink.addEventListener("click", function(event) {
     event.preventDefault();
 
-   infoPanel.innerHTML = `
+ infoPanel.innerHTML = `
 <h2>Welcome to SonoLearning</h2>
 
-<p>SonoLearning is an educational website designed to introduce users to the basics of diagnostic medical sonography.</p>
+<p>SonoLearning is an interactive educational website designed to introduce users to the fundamentals of diagnostic medical sonography. Explore how ultrasound is used to examine different organs, discover career specialties in medical imaging, learn essential ultrasound terminology, and test your knowledge with an interactive quiz.</p>
 
-<p>Select an organ to view a sample ultrasound image and learn about its anatomy and function.</p>
+<p><strong>Choose an organ</strong> to view an ultrasound image, learn its function, and see how sonographers evaluate it.</p>
 
-<p><strong>Learn</strong> explores important ultrasound terminology.</p>
+<p><strong>Learn</strong> reviews important ultrasound terms and imaging concepts.</p>
 
-<p><strong>Quiz</strong> lets you test your knowledge.</p>
+<p><strong>Quiz</strong> challenges your understanding with multiple-choice questions.</p>
 
-<p><strong>About</strong> introduces ultrasound career specialties related to each organ.</p>
+<p><strong>About</strong> explains the different sonography specialties related to each organ.</p>
 
-<p>Use the organ buttons below to begin exploring.</p>
+<p>Use the organ buttons below to begin exploring the human body through ultrasound.</p>
 `;
 
     ultrasoundScreen.innerHTML = `
